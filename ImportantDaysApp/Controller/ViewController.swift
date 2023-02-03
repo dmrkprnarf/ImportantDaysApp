@@ -72,14 +72,13 @@ extension ViewController:UIPickerViewDataSource {
     }
     
     func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
-        return model.countryCode.count
+        return  model.CountryCode.values.count
     }
     
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
-        model.countryName = model.arr[row]
-      return  model.countryCode[row]
-       
-      
+        let key = Array(model.CountryCode.keys)[row]
+        model.countryName = key
+       return   Array(model.CountryCode.values)[row]
     }
 }
 

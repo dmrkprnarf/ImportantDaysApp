@@ -17,10 +17,8 @@ struct ImportantDaysModel {
     
     var countryName:String?
     
-    var countryCode = [
-        "Belgium","Bulgaria","Czechia","Denmark","Germany","Estonia","Ireland","Greece", "Spain","France","Croatia","Italy","Cyprus","Latvia","Lithuania","Luxembourg","Hungary","Malta",   "Netherlands","Austria","Poland","Portugal","Romania","Slovenia","Slovakia","Finland","Sweden","Iceland","Liechtenstein","Norway","Switzerland","United Kingdom","Bosnia and Herzegovina","Montenegro","Moldova","North Macedonia ","Albania","Serbia","Türkiye","Ukraine","Kosovo","Georgia","Armenia","Belarus","Jordan","Russia"]
-    
-    var arr = ["BE","BG","CZ","DK","DE","EE","IE","EL", "ES","FR","HR","IT","CY","LV","LT","LU","HU","MT",   "NL","AT","PL","PT","RO","SI","SK","FI","SE","IS","LI","NO","CH","UK","BA","ME","MD","MK","AL","RS","TR","UA","XK","GE","AM","BY","JO","RU"]
+
+    var CountryCode = ["BE":"Belgium","BG":"Bulgaria","CZ":"Czechia","DK":"Denmark","DE":"Germany","EE":"Estonia","IE":"Ireland","EL":"Greece","ES":"Spain","TR":"Turkey"]
     
 
     
