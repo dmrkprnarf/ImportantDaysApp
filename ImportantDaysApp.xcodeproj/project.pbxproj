@@ -64,12 +64,12 @@
 			children = (
 				5E8EA73D2982E4B9001A16CD /* AppDelegate.swift */,
 				5E8EA73F2982E4B9001A16CD /* SceneDelegate.swift */,
+				5E8EA7532982E6DF001A16CD /* Model */,
 				5EF407B42983FC820072665F /* Controller */,
 				5EF407B32983FC7A0072665F /* View */,
 				5E8EA7462982E4BA001A16CD /* Assets.xcassets */,
 				5E8EA7482982E4BA001A16CD /* LaunchScreen.storyboard */,
 				5E8EA74B2982E4BA001A16CD /* Info.plist */,
-				5E8EA7532982E6DF001A16CD /* Model */,
 			);
 			path = ImportantDaysApp;
 			sourceTree = "<group>";
