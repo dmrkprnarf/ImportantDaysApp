@@ -46,7 +46,7 @@
 		5E8EA7312982E4B9001A16CD = {
 			isa = PBXGroup;
 			children = (
-				5E8EA73C2982E4B9001A16CD /* PortalCodeApp */,
+				5E8EA73C2982E4B9001A16CD /* ImportantDaysApp */,
 				5E8EA73B2982E4B9001A16CD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -59,7 +59,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5E8EA73C2982E4B9001A16CD /* PortalCodeApp */ = {
+		5E8EA73C2982E4B9001A16CD /* ImportantDaysApp */ = {
 			isa = PBXGroup;
 			children = (
 				5E8EA73D2982E4B9001A16CD /* AppDelegate.swift */,
@@ -71,7 +71,7 @@
 				5E8EA74B2982E4BA001A16CD /* Info.plist */,
 				5E8EA7532982E6DF001A16CD /* Model */,
 			);
-			path = PortalCodeApp;
+			path = ImportantDaysApp;
 			sourceTree = "<group>";
 		};
 		5E8EA7532982E6DF001A16CD /* Model */ = {
@@ -325,7 +325,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = V2HR5ZFNDB;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PortalCodeApp/Info.plist;
+				INFOPLIST_FILE = ImportantDaysApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -353,7 +353,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = V2HR5ZFNDB;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PortalCodeApp/Info.plist;
+				INFOPLIST_FILE = ImportantDaysApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
