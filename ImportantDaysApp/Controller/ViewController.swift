@@ -26,6 +26,7 @@ class ViewController: UIViewController, ImportantDaysModelDelegate{
         pickerView.delegate = self
         model.delegate = self
     }
+
     @IBAction func getButtonPressed(_ sender: UIButton) {
        
         model.performRequest(url: model.getURL()) { result in

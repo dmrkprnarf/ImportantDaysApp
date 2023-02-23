@@ -43,6 +43,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5E63C9BA29A7E1F300BE22BB /* Supporting File */ = {
+			isa = PBXGroup;
+			children = (
+				5E8EA7462982E4BA001A16CD /* Assets.xcassets */,
+				5E8EA7482982E4BA001A16CD /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting File";
+			sourceTree = "<group>";
+		};
+		5E63C9BB29A7E20000BE22BB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5E8EA7582983023E001A16CD /* ImportantDaysData.swift */,
+				5E8EA75C298317CC001A16CD /* ImportantDaysModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5E63C9BC29A7E20D00BE22BB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5E8EA7432982E4B9001A16CD /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		5E8EA7312982E4B9001A16CD = {
 			isa = PBXGroup;
 			children = (
@@ -64,31 +90,13 @@
 			children = (
 				5E8EA73D2982E4B9001A16CD /* AppDelegate.swift */,
 				5E8EA73F2982E4B9001A16CD /* SceneDelegate.swift */,
-				5E8EA7532982E6DF001A16CD /* Model */,
+				5E63C9BB29A7E20000BE22BB /* Model */,
 				5EF407B42983FC820072665F /* Controller */,
-				5EF407B32983FC7A0072665F /* View */,
-				5E8EA7462982E4BA001A16CD /* Assets.xcassets */,
-				5E8EA7482982E4BA001A16CD /* LaunchScreen.storyboard */,
+				5E63C9BC29A7E20D00BE22BB /* View */,
+				5E63C9BA29A7E1F300BE22BB /* Supporting File */,
 				5E8EA74B2982E4BA001A16CD /* Info.plist */,
 			);
 			path = ImportantDaysApp;
-			sourceTree = "<group>";
-		};
-		5E8EA7532982E6DF001A16CD /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				5E8EA7582983023E001A16CD /* ImportantDaysData.swift */,
-				5E8EA75C298317CC001A16CD /* ImportantDaysModel.swift */,
-			);
-			name = Model;
-			sourceTree = "<group>";
-		};
-		5EF407B32983FC7A0072665F /* View */ = {
-			isa = PBXGroup;
-			children = (
-				5E8EA7432982E4B9001A16CD /* Main.storyboard */,
-			);
-			name = View;
 			sourceTree = "<group>";
 		};
 		5EF407B42983FC820072665F /* Controller */ = {
